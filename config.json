@@ -1,0 +1,6 @@
+{
+    "OUTPUT_DIR" : "documentation_output",
+    "OLLAMA_API_URL" : "[OLLAMA_API_URL]",
+    "OLLAMA_MODEL" : "[OLLAMA_MODEL]",
+    "CHUNK_SIZE_CHARACTERS" : 4000
+}
