@@ -9,13 +9,15 @@ To get started with this project on your local machine, follow these steps:
 
 1. First, clone the repository containing the project files to your local computer using a command line tool like Git Bash or Terminal. For example:
    ```
-   git clone https://github.com/Agomps/MimirCode.git
+   git clone https://github.com/[username]/[repository_name].git
    ```
-   
+   Replace `[username]` with the username of the repository owner and `[repository_name]` with the name of the specific repository you are cloning.
+
 2. Navigate to the project directory:
    ```
-   cd MimirCode
+   cd [project_name]
    ```
+   Replace `[project_name]` with the name of the project directory you just cloned.
 
 3. Create a new Python virtual environment using the venv module:
    ```
@@ -39,3 +41,31 @@ To get started with this project on your local machine, follow these steps:
    ```
 
 After completing these steps, your local environment should be set up and ready for developing or running the project.
+
+# Using the MimirCode
+
+
+## Examples on How to Use the Code
+
+Here are three examples demonstrating how to use the main functionalities of this code:
+
+**Generating Documentation using `code_documentation.py`**
+
+   The script will then process all code files in the specified directory, read their content, split it into chunks if necessary, and use the Ollama API to generate documentation for each chunk or the whole file.
+
+
+```bash
+python3 code_documentation.py
+Enter the path to the directory containing your program files: /path/to/your/project
+```
+
+
+**Generating Documentation using `deep_code_documentation.py`**
+
+The script will read the file, call Ollama to generate summary, detailed explanation, and usage examples if needed, and save the generated Markdown documentation in the specified output directory.
+
+   ```bash
+   python3 deep_code_documentation.py
+   Enter the path to the directory containing your program files: /path/to/your/project
+   ```
+
