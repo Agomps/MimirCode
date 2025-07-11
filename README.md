@@ -1,6 +1,6 @@
 # MimirCode: A Smart Code Analyzer and Documentation Utility
 
-MimirCode is a Python-based tool that simplifies code analysis, documentation, and usage. It takes existing code projects or folders, breaks them into smaller parts, and sends them to an local instance of Ollama for a thorough analysis. 
+MimirCode is a Python-based tool that simplifies code analysis, documentation, and usage. It takes existing code projects or folders, breaks them into smaller parts, and sends them to a local instance of Ollama for a thorough analysis. 
 
 MimirCode allows a local LLM to dive into code, determining its structure, function, and purpose. The resulting documentation is clear and easy-to-understand, explaining each component's role, interaction with other parts of the project, and usage examples. This makes it easier for developers to navigate through complex projects, learn new concepts quickly, and utilize the code effectively.
 
