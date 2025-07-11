@@ -42,10 +42,7 @@ To get started with this project on your local machine, follow these steps:
 
 After completing these steps, your local environment should be set up and ready for developing or running the project.
 
-# Using the MimirCode
-
-
-## Examples on How to Use the Code
+## Examples on How to Use MimirCode
 
 Here are three examples demonstrating how to use the main functionalities of this code:
 
