@@ -11,14 +11,12 @@ To get started with this project on your local machine, follow these steps:
    ```
    git clone https://github.com/Agomps/MimirCode.git
    ```
-   Replace `[username]` with the username of the repository owner and `MimirCode` with the name of the specific repository you are cloning.
 
 2. Navigate to the project directory:
    ```
    cd MimirCode
    ```
-   Replace `MimirCode` with the name of the project directory you just cloned.
-
+   
 3. Create a new Python virtual environment using the venv module:
    ```
    python3 -m venv venv
